@@ -11,3 +11,4 @@ function fibsRec(number) {
     fibsArray.push(fibsArray[fibsArray.length - 1] + fibsArray[fibsArray.length - 2]);
     return fibsArray;
 };
+module.exports = { fibsRec };
